@@ -4,3 +4,19 @@
     padding: 0;
 }
 
+.hero{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-vector/minimalist-blue-curve-background_549830-86.jpg?w=826);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#form .card{
+    height: 70vh;
+}
+
+#form{
+    height: 100%;
+
+}
