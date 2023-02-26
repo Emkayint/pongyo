@@ -18,24 +18,57 @@
     <div class="hero">
 
         <!-- form for login -->
-        <div id="form" class="d-flex align-items-center justify-content-center">
-            <div class="row">
-                <div class="col-sm-12 col-lg-12 col-md-12">
-                    <form id="login">
-                        <div class="card p-3">
-                            <div class="text-center text-primary">
-                                <h1>Login</h1>
-                                <p>Register to manage your account</p>
+        <div id="form">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 col-md-12">
+                        <form id="login">
+                            <div class="card p-3">
+                                <div class="text-center text-primary">
+                                    <h1>Login</h1>
+                                    <p>Register to manage your account</p>
+                                </div>
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username" class="form-control">
+                                <br>
+                                <label for="Password">Password</label>
+                                <input type="password" name="username" id="Password" class="form-control">
+                                <br>
+                                <button class="btn btn-primary ">Submit</button>
+
                             </div>
-                            <label for="username">Username</label>
-                            <input type="text" name="username" id="username" class="form-control">
-                            <br>
-                            <label for="Password">Password</label>
-                            <input type="password" name="username" id="Password" class="form-control">
-                            <br>
-                            <button class="btn btn-primary ">Submit</button>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- signup page -->
+        <div id="signUpForm">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 col-md-12">
+                        <form id="sigUpLogin">
+                            <div class="card p-3">
+                                <div class="text-center text-primary">
+                                    <h1>Signup</h1>
+                                    <p>Register to manage your account</p>
+                                </div>
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username" class="form-control">
+                                <br>
+                                <label for="Password">Password</label>
+                                <input type="password" name="username" id="passwordSignIn" class="form-control">
+                                <br>
+                                <label for="Password">Confirm password</label>
+                                <input type="password" name="confri password" id="PasswordConfrimation" class="form-control">
+                                <br>
+                                <button class="btn btn-primary ">Submit</button>
+                                <p>Already have an account? <a href="#login">login.</a></p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
